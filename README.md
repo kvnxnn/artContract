@@ -15,7 +15,7 @@ A decentralized NFT art marketplace built with Solidity, Next.js, and Thirdweb, 
 
 
 🛠️ Tech Stack
-🔧 Frontend (my-app)
+ Frontend (my-app)
 Next.js 14.2.4
 
 React 18
@@ -24,7 +24,10 @@ Ethers.js 5.7
 
 Sass for styling
 
+
+
 ⚙️ Web3 & Contracts (web3)
+
 Solidity smart contracts
 
 @thirdweb-dev/contracts 3.15
@@ -35,12 +38,5 @@ thirdweb 5.30
 
 zksync-web3 0.14
 
-
-📂 Project Structure
-
-artContract/
-├── my-app/         # Frontend Next.js app
-├── web3/           # Smart contracts and scripts
-├── README.md
 
 🌍 Live Demo https://arthubmarket.com/
