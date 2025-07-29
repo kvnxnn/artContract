@@ -42,3 +42,5 @@ artContract/
 ├── my-app/         # Frontend Next.js app
 ├── web3/           # Smart contracts and scripts
 ├── README.md
+
+🌍 Live Demo https://arthubmarket.com/
