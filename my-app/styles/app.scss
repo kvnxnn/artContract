@@ -1,0 +1,43 @@
+@import "./create";
+@import "./art";
+@import "./detail";
+@import "./header";
+@import "./featured";
+@import "./profile";
+
+@font-face {
+  font-family: 'teslaFont';
+  src: url('/fonts/TESLA.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #696969;
+}
+
+body {
+  // background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+  font-family: 'teslaFont', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(0, 0, 0, 0.949);
+  font-size: 1rem;
+   color: #88878d;
+  // color: #3ee72e;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

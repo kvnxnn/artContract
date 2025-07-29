@@ -1,0 +1,115 @@
+.create {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+//   max-width: 2000px;
+//   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+
+  
+ 
+}
+
+h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+label {
+  font-size: 1.7rem;
+  color: white;
+}
+
+.titleUpload,
+.descriptionUpload,
+.priceUpload {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.createContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+
+  gap: 4rem;
+}
+
+.uploadArt {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.uploadUrl {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+
+  box-sizing: border-box;
+  background-color: rgba(128, 128, 128, 0.447);
+  color: white;
+  font-size: 1.5rem;
+  border: 1px solid rgba(74, 244, 74, 0.163);
+   -webkit-box-shadow: -24px 10px 243px -2px rgba(114, 245, 102, 0.464);
+  -moz-box-shadow: -24px 10px 243px -2px rgba(114, 245, 102, 0.464);
+  box-shadow: -24px 10px 243px -2px rgba(114, 245, 102, 0.464);
+}
+
+.imagePreview img {
+  padding: 1rem;
+  box-shadow: rgba(27, 41, 35, 0.841) 0px 8px 24px;
+  border: 1px solid rgba(74, 244, 74, 0.254);
+  object-fit: cover;
+  object-position: center;
+}
+
+.artdetailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+button.submitBtn {
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  background-color: transparent;
+  border: none;
+  color: #88878d;
+  font-weight: 800;
+  border: 1px solid rgba(138, 137, 137, 0.437);
+  -webkit-box-shadow: -24px 10px 243px -2px rgba(114, 245, 102, 0.464);
+  -moz-box-shadow: -24px 10px 243px -2px rgba(114, 245, 102, 0.464);
+  box-shadow: -24px 10px 243px -2px rgba(114, 245, 102, 0.464);
+}
+
+.createBlur{
+filter: blur(5px);
+}
